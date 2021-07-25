@@ -88,8 +88,8 @@ aside p {
 
 .btn {
   display: inline-block;
-  background: #fa8374;
-  color: #fff;
+  background: #fff;
+  color: #000;
   padding: 10px 30px;
   border-radius: 30px;
   margin: 30px 0;
