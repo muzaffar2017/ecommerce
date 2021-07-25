@@ -104,6 +104,9 @@ aside p {
 /*Section1*/
 section {
   margin: 70px 0;
+}
+
+.container {
   max-width: 1080px;
   margin: auto;
   padding-left: 25px;
