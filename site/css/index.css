@@ -4,4 +4,81 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  color: #000;
+  cursor: pointer;
+}
+header{
+  background: linear-gradient(#777, #ededed);
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.header-link{
+  text-align: right;
+  flex: 1;
+}
+.header-link ul{
+  display: inline-block;
+}
+.header-link ul li{
+  display: inline-block;
+}
+.header-link ul li a{
+  margin-left: 20px;
+}
+.header-panel ul{
+  display: inline-block;
+}
+.header-panel ul li{
+  display: inline-block;
+}
+.header-panel ul li a{
+  font-size: large;
+  margin-left: 15px;
+}
+header .row{
+  margin-top: 80px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+aside{
+  flex-basis: 50%;
+  min-width: 350px;
+}
+aside img{
+  max-width: 100%;
+  padding: 25px 0;
+}
+aside h1{
+  font-size: 35px;
+  line-height: 50px;
+  margin: 25px 0;
+}
+aside p{
+  text-align: justify;
+}
+.btn{
+  display: inline-block;
+  background: #fa8374;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 30px;  
+  margin: 30px 0;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #fff;
+  color: #fa8374;
 }
