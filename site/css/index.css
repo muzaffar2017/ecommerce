@@ -108,7 +108,7 @@ aside p {
 }
 
 /*Section1*/
-section {
+section, article {
   margin: 70px 0;
 }
 
