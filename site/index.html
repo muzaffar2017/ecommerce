@@ -23,7 +23,7 @@
         </div>
       </nav>
       <nav class="header-panel">
-        <img src="./images/bulletlist.png" alt="">
+        <img src="./images/bulletlist.png" alt="" class="menuicon" onclick="menutoggle()">
         <ul>
           <li><a href="">New Arrivals</a></li>
           <li><a href="">Brand</a></li>
@@ -155,6 +155,21 @@
   <div id="footer-link">
     <a href="https://muzaffar2017.github.io/ecommerce/site/">&copy; Copyright Reserved</a>
   </div>
+
+
+  <script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle(){
+      if(menuitems.style.maxHeight == "0px"){
+        menuitems.style.maxHeight = "200px";
+      }else{
+        menuitems.style.maxHeight = "0px";
+      }
+    }
+  </script>
 
 </body>
 </html>

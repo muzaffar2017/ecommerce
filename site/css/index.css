@@ -58,7 +58,7 @@ nav img{
   font-size: large;
   margin-left: 15px;
 }
-.header-panel img{
+.menuicon{
   width: 30px;
   height: 35px;
   background: transparent;
@@ -169,7 +169,7 @@ footer a{
 }
 
 @media all and (min-width: 767px) {
-  .header-panel img{
+  .menuicon{
     display: none;
   }
 }
