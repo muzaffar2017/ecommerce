@@ -61,6 +61,7 @@ nav img{
 .header-panel img{
   width: 30px;
   height: 35px;
+  background: transparent;
 }
 
 header .row {
