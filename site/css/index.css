@@ -8,7 +8,8 @@
   cursor: pointer;
 }
 
-header, footer {
+header,
+footer {
   background: linear-gradient(#777, #ededed);
 }
 
@@ -24,7 +25,8 @@ nav {
   align-items: center;
   padding: 5px;
 }
-nav img{
+
+nav img {
   width: 75px;
   height: 70px;
 }
@@ -58,10 +60,10 @@ nav img{
   font-size: large;
   margin-left: 15px;
 }
-.menuicon{
+
+.menuicon {
   width: 30px;
   height: 35px;
-  background: transparent;
 }
 
 header .row {
@@ -147,29 +149,56 @@ section {
 .col-4 img {
   width: 100%;
 }
-article{
+
+article {
   margin: 70px 0;
 }
-#bt-school{
+
+#bt-school {
   background: #555;
   color: #ededed;
   margin: 70px 0;
 }
-.col h2{
+
+.col h2 {
   color: #ededed;
 }
+
 #para {
   color: #ededed;
 }
-footer a{
+
+footer a {
   display: block;
 }
-#footer-link{
+
+#footer-link {
   text-align: center;
 }
 
 @media all and (min-width: 767px) {
-  .menuicon{
+  .menuicon {
     display: none;
   }
+
+  .header-panel {
+    ul {
+      position: absolute;
+      width: 100%;
+      background: #777;
+      color: #ededed;
+      top: 70px;
+      left: 0;
+      overflow: hidden;
+
+      li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+
 }
