@@ -26,9 +26,9 @@ nav {
   padding: 5px;
 }
 
-nav img {
-  width: 75px;
-  height: 70px;
+nav a img {
+  width: 50px;
+  height: 50px;
 }
 
 .header-link {
@@ -63,7 +63,8 @@ nav img {
 
 .menuicon {
   width: 30px;
-  height: 35px;
+  height: 25px;
+  margin-left: 15px;
 }
 
 header .row {
@@ -92,8 +93,7 @@ aside h1 {
   line-height: 50px;
   margin: 25px 0;
 }
-
-aside p {
+aside p{
   text-align: justify;
 }
 
@@ -150,14 +150,10 @@ section {
   width: 100%;
 }
 
-article {
-  margin: 70px 0;
-}
 
 #bt-school {
   background: #555;
   color: #ededed;
-  margin: 70px 0;
 }
 
 .col h2 {
@@ -166,10 +162,12 @@ article {
 
 #para {
   color: #ededed;
+  text-align: justify;
 }
 
 footer a {
   display: block;
+  text-align: justify;
 }
 
 #footer-link {
@@ -178,23 +176,55 @@ footer a {
 
 @media all and (min-width: 767px) {
   .menuicon {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  nav a img {
+    width: 50px;
+    height: 50px;
+    margin: 0 25%;
+  }
+
+  aside h1 {
+    font-size: 25px;
+    line-height: 50px;
+    margin: 25px 0;
+  }
+
+
+  .header-link {
     display: none;
   }
-  .header-panel ul{
+
+  .row {
+    text-align: center;
+  }
+
+  .col-4 {
+    flex-basis: 100%;
+  }
+
+  .header-panel ul {
     position: absolute;
     width: 100%;
     background: #777;
     color: #ededed;
-    top: 70px;
+    top: 60px;
     left: 0;
     overflow: hidden;
+    transition: max-height 0.5s;
   }
-  .header-panel ul li{
+
+  .header-panel ul li {
     display: block;
-    margin-right: 50px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
+    margin-right: 10px;
   }
-
-
 }
