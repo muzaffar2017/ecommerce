@@ -180,24 +180,20 @@ footer a {
   .menuicon {
     display: none;
   }
-
-  .header-panel {
-    ul {
-      position: absolute;
-      width: 100%;
-      background: #777;
-      color: #ededed;
-      top: 70px;
-      left: 0;
-      overflow: hidden;
-
-      li{
-        display: block;
-        margin-right: 50px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
-    }
+  .header-panel ul{
+    position: absolute;
+    width: 100%;
+    background: #777;
+    color: #ededed;
+    top: 70px;
+    left: 0;
+    overflow: hidden;
+  }
+  .header-panel ul li{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
 
