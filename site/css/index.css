@@ -13,7 +13,7 @@ footer {
   background: linear-gradient(#777, #ededed);
 }
 
-.container {
+.container-fluid {
   max-width: 1300px;
   margin: auto;
   padding-left: 20px;
