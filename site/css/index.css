@@ -65,8 +65,6 @@ nav a img {
   width: 30px;
   height: 25px;
   margin-left: 15px;
-  border: transparent;
-  outline: transparent;
 }
 
 header .row {
@@ -151,7 +149,9 @@ section {
 .col-4 img {
   width: 100%;
 }
-
+article{
+  clear: both;
+}
 
 #bt-school {
   background: #555;
@@ -180,8 +180,9 @@ footer a {
   .menuicon {
     position: absolute;
     display: none;
-    top: 0px;
     left: 0;
+    border: transparent;
+    outline: transparent;
   }
 }
 
@@ -217,7 +218,7 @@ footer a {
     width: 100%;
     background: #777;
     color: #ededed;
-    top: 60px;
+    top: 100px;
     left: 0;
     overflow: hidden;
     transition: max-height 0.5s;
