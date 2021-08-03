@@ -187,14 +187,17 @@ footer a {
 }
 
 @media screen and (max-width: 768px) {
-
+/*
   .companylogo {
     width: 25px;
     height: 25px;
-    margin: 0 25%;
-    border-radius: 50%;
+    margin: 0 25%;    
+  }*/
+  nav a img{
+    width: 25px;
+    height: 25px;
+    margin: 0 100%;
   }
-
   aside h1 {
     font-size: 25px;
     line-height: 50px;
@@ -219,7 +222,7 @@ footer a {
     width: 100%;
     background: #777;
     color: #ededed;
-    top: 100px;
+    top: 30px; 
     left: 0;
     overflow: hidden;
     transition: max-height 0.5s;
