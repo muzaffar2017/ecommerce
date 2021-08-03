@@ -194,9 +194,7 @@ footer a {
     margin: 0 25%;    
   }*/
   nav a img{
-    width: 25px;
-    height: 25px;
-    margin: 0 100%;
+    display: none;
   }
   aside h1 {
     font-size: 25px;
