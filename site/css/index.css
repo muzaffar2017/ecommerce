@@ -65,6 +65,8 @@ nav a img {
   width: 30px;
   height: 25px;
   margin-left: 15px;
+  border: transparent;
+  outline: transparent;
 }
 
 header .row {
