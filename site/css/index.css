@@ -27,8 +27,8 @@ nav {
 }
 
 nav a img {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 25px;
 }
 
 .header-link {
@@ -195,7 +195,7 @@ footer a {
     display: none;
   }*/
   nav a img{
-    width: 25px;
+    width: 75px;
     height: 25px;
     margin: 0 25%;
   }
