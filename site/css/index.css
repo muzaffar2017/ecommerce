@@ -150,7 +150,20 @@ section {
   width: 100%;
 }
 article{
-  clear: both;
+
+  #home-tiles{
+    #accessories-tile,
+    #clothing-tile, 
+    #footwear-tile, 
+    #bestseller-tile {
+      position: relative;
+      height: 250px;
+      width: 100%;
+      margin-bottom: 15px;
+      border: 1px solid #3f0c1f;
+      overflow: hidden;
+    }
+  }
 }
 
 #bt-school {
