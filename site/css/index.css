@@ -191,10 +191,13 @@ footer a {
   .companylogo {
     width: 25px;
     height: 25px;
-    margin: 0 25%;    
+    margin: 0 25%;   
+    display: none;
   }*/
   nav a img{
-    display: none;
+    width: 25px;
+    height: 25px;
+    margin: 0 25%;
   }
   aside h1 {
     font-size: 25px;
