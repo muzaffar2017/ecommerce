@@ -233,21 +233,3 @@ footer a {
     margin-right: 10px;
   }
 }
-/*Brands dropdownmenu*/
-#brandnames{
-  display: none;
-  position: absolute;
-  background: #ededed;
-  color: #000;
-  height: auto;
-  width: auto;
-}
-#brandnames li{
-  display: block;
-}
-#brandnames li a{
-  font-size: large;
-}
-#brandnames:hover{
-  display: block;
-}
