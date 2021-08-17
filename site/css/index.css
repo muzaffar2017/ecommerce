@@ -184,13 +184,13 @@ footer a {
 }
 
 @media screen and (max-width: 768px) {
-/*
+
   .companylogo {
     width: 25px;
     height: 25px;
     margin: 0 25%;   
     display: none;
-  }*/
+  }
   nav a img{
     width: 75px;
     height: 25px;
