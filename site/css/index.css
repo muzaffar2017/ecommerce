@@ -28,7 +28,7 @@ nav {
 
 nav a img {
   width: 75px;
-  height: 25px;
+  height: 75px;
 }
 
 .header-link {
@@ -150,10 +150,12 @@ section {
 .col-4 img {
   width: 100%;
 }
-article{
+
+article {
   margin: 70px 0;
 }
-.col-2{
+
+.col-2 {
   flex-basis: 15%;
   transform: skew(-15deg);
   border: 1px dotted #ededed;
@@ -162,18 +164,21 @@ article{
   min-height: 75px;
   flex-grow: 1;
 }
-article .col-2 h4{
+
+article .col-2 h4 {
   font-size: large;
   color: #ededed;
 }
-article .col-2 span{
+
+article .col-2 span {
   position: absolute;
   bottom: 0;
   width: 100%;
   right: 0;
   text-align: center;
 }
-article .col-2:hover{
+
+article .col-2:hover {
   opacity: 1;
 }
 
@@ -243,7 +248,8 @@ footer a {
   .col-4 {
     flex-basis: 100%;
   }
-  .col-2{
+
+  .col-2 {
     flex-basis: 30%;
     transform: skew(0);
     min-height: 50px;
