@@ -12,21 +12,16 @@
 <body>
   <header>
     <div class="container-fluid">
-      <nav>
-        <img src="./images/bulletlist.png" alt="" class="menuicon" onclick="menutoggle()">
-        <a href="" class="companylogo">
-          <img src="./images/Logo.png" alt="Company Logo">
-        </a>
-        <div class="header-link">
-          <ul>
-            <li><a href="">Order Status</a></li>
-            <li><a href="">01234567</a></li>
-            <li><a href="">Sign In</a></li>
-          </ul>
-        </div>
-      </nav>
+      <img src="./images/bulletlist.png" alt="" class="menuicon" onclick="menutoggle()">
+      <a href="">
+        <img src="./images/Logo.png" alt="Company Logo" class="companylogo">
+      </a>
+      <ul class="header-link">
+        <li><a href="">Order Status</a></li>
+        <li><a href="">01234567</a></li>
+        <li><a href="">Career</a></li>
+      </ul>
       <nav class="header-panel">
-
         <ul id="navitems">
           <li><a href="">New Arrivals</a></li>
           <li><a href="">Brand</a></li>
@@ -36,6 +31,7 @@
           <li><a href="">Sports</a></li>
           <li><a href="">Sale</a></li>
         </ul>
+        <li class="user-link"><a href="">Sign In</a></li>
       </nav>
       <div class="row">
         <aside>
@@ -43,8 +39,8 @@
         </aside>
         <aside>
           <h1>Fashion Meets Comfort</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
             electronic typesetting, remaining essentially unchanged.</p>
           <a class="btn">Shop Now &#8594;</a>
@@ -57,28 +53,37 @@
       <h1 class="title">New Arrivals</h1>
       <div class="row">
         <div class="col-4">
-          <img src="./images/img1.jpg" alt="">
-          <h4>White Cotton Dress With Round Neck</h4>
-          <p>Floral Print by Cavalli</p>
-          <h5>$100</h5>
+          <a href="">
+            <img src="./images/img1.jpg" alt="">
+            <h4>White Cotton Dress With Round Neck</h4>
+            <p>Floral Print by Cavalli</p>
+            <h5>$100</h5>
+          </a>
         </div>
         <div class="col-4">
-          <img src="./images/img4.jpg" alt="">
-          <h4>Cotton T-Shirt With Round Neck</h4>
-          <p>T-Shirt with studded Brand's name</p>
-          <h5>$100</h5>
+          <a href="">
+            <img src="./images/img4.jpg" alt="">
+            <h4>Cotton T-Shirt With Round Neck</h4>
+            <p>T-Shirt with studded Brand's name</p>
+            <h5>$100</h5>
+          </a>
         </div>
         <div class="col-4">
-          <img src="./images/img5.jpg" alt="">
-          <h4>Orange T-Shirt With Round Neck</h4>
-          <p>T-Shirt with Brand's name</p>
-          <h5>$100</h5>
+          <a href="">
+            <img src="./images/img5.jpg" alt="">
+            <h4>Orange T-Shirt With Round Neck</h4>
+            <p>T-Shirt with Brand's name</p>
+            <h5>$100</h5>
+          </a>
+
         </div>
         <div class="col-4">
-          <img src="./images/img6.jpg" alt="">
-          <h4>Short Sleeves Dress With Flared Design</h4>
-          <p>Dress with belt FF logo by Fendi</p>
-          <h5>$100</h5>
+          <a href="">
+            <img src="./images/img6.jpg" alt="">
+            <h4>Short Sleeves Dress With Flared Design</h4>
+            <p>Dress with belt FF logo by Fendi</p>
+            <h5>$100</h5>
+          </a>
         </div>
       </div>
     </div>
@@ -144,11 +149,11 @@
       <div class="row">
         <div class="col">
           <h2>Back to School</h2>
-          <p id="para">
-            Get 20% extra Disount
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap
+          <h3>Get 20% extra Disount</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
             into electronic typesetting, remaining essentially unchanged.
           </p>
           <a href=""><span>Shop Now</span></a>
@@ -203,7 +208,7 @@
 
     function menutoggle() {
       if (navitems.style.maxHeight == "0px") {
-        navitems.style.maxHeight = "100%";
+        navitems.style.maxHeight = "250px";
       } else {
         navitems.style.maxHeight = "0px";
       }
