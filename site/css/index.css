@@ -13,15 +13,18 @@ a{
 header{
   background: linear-gradient(#777, #ededed);
   overflow: hidden;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
 .navbar-brand{
   display: none;
 }
-.responsiveimg {
-  width: 35px;
+.responsiveimg {  
   display: block;
   margin: 0 auto;
   text-align: center;
+  width: 35px;
 }
 .nav-trig{
   outline: transparent;
