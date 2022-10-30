@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+    color: #111;
+}
+a{
+    text-decoration: none;
+    color: #111;
+}
+header{
+    background: linear-gradient(#777, #ededed);
+    overflow: hidden;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.navbar-brand{
+    display: none;
+}
+.responsiveimg {  
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 35px;
+}
+  
+.nav-trig span{
+    height: 2px;
+    display: block;
+    margin: 6px 0;
+    width: 25px;
+}
+.nav-trig span:nth-child(1){
+    background-color: #ffd905;
+}
+.nav-trig span:nth-child(2){
+    background-color: #89be3e;
+    width: 20px;
+}
+.nav-trig span:nth-child(3){
+    background-color: #0092d6;
+}
+
+.nav-link{
+    font-size: large;
+    color: #fff;
+}
+.carousel-item{
+    height: 32vh;
+    background: #777;
+    color: white;
+    position: relative;
+}
+  .container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.container-fluid {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.title {
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto 80px;
+    font-size: 24px;
+  }
+  
+  .title::after {
+    content: '';
+    background: #fa8374;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .col-4 {
+    flex-basis: 25%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    /*box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);*/
+    border: 1px solid;
+    padding: 10px;
+  }
+  
+  .col-4 img {
+    width: 100%;
+    
+  }  
+  article{
+    margin: 50px 0;
+  }
+  .col-2{
+    flex-basis: 15%;
+    transform: skew(-15deg);
+    border: 1px dotted #ededed;
+    background: #61122f;
+    opacity: .5;
+    min-height: 75px;
+    flex-grow: 1;
+  }
+  article .col-2 h4{
+    font-size: large;
+    color: #ededed;
+  }
+  article .col-2 span{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    text-align: center;
+  }
+  article .col-2:hover{
+    opacity: 1;
+  }
+  #bt-school {
+    background: #555;
+    color: #ededed;
+  }
+  
+  .col h2 {
+    color: #ededed;
+  }
+  
+  #para {
+    color: #ededed;
+    text-align: justify;
+  }
+footer{
+    margin: 10px 0;
+}  
+  footer a {
+    display: block;
+    text-align: justify;
+  
+}
+/*Mobile CSS*/
+
+@media all and (min-width: 768px) {
+
+    .navbar-brand{
+      display: block;
+      color: #fff;
+    }
+    .responsiveimg{
+      display: none;
+    }
+    #nav{
+      display: inline-block;
+      margin-left: 10%;
+    }
+    .nav-item{
+      display: inline-block;
+    }
+    @media all and (min-width: 767px) {
+      .menuicon {
+        position: absolute;
+        display: none;
+        left: 0;
+        border: transparent;
+        outline: transparent;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+    
+      .companylogo {
+        width: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    
+      nav a img {
+        width: 75px;
+        height: 25px;
+        margin: 0 25%;
+      }
+    
+      aside h1 {
+        font-size: 25px;
+        line-height: 50px;
+        margin: 25px 0;
+      }
+    
+    
+      .header-link {
+        display: none;
+      }
+    
+      .row {
+        text-align: center;
+      }
+    
+      .col-4 {
+        flex-basis: 100%;
+      }
+      .col-2{
+        flex-basis: 30%;
+        transform: skew(0);
+        min-height: 50px;
+      }
+    
+      .header-panel ul {
+        position: absolute;
+        width: 100%;
+        background: #777;
+        color: #ededed;
+        top: 30px;
+        left: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
+      }
+    
+      .header-panel ul li {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+      }
+    }
+  
+  }
