@@ -20,6 +20,7 @@ header{
 
 .navbar-brand{
     display: none;
+    background-color: #adff2f
 }
 .responsiveimg {  
     display: block;
